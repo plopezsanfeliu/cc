@@ -24,3 +24,18 @@ Uno no transmite porqué oye los paquetes de otra red (vecino),
 Redes que no constan con acceso a internet. Motivo: dispositivos con muy poca memoria -> no stack TCP/IP y tramas tienen mucho overhead en headers.
 ## 15.4E
 Cambio de protocolo de acceso al medio -> tenemos varios canales que cambian con timeslots
+
+
+## MOS Air Quality
+Cantidad de gas cambia la resistividad del sensor, dependiendo la concentración de NO2, O3... 
+
+A más ancho de banda, más pequeño tiempo de subida.
+
+## Teoria de ondas
+La longitud del símbolo es el inverso del ancho de banda.
+La cantidad de símbolos que se pueden transmitir es proporcional al ancho de banda.
+
+Filtro paso bajo -> se elimina gran parte del ruido
+
+Savitzky-Golay --> media de frecuencias para hacer gráfica más smooth, ==> hace de paso-bajo pues elimina frecuencias altas
+Más ancho de banda --> tiempo de subida menor pero deja pasar mas ruido
