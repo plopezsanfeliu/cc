@@ -37,5 +37,12 @@ La cantidad de símbolos que se pueden transmitir es proporcional al ancho de ba
 
 Filtro paso bajo -> se elimina gran parte del ruido
 
+Magnetómetro --> mucho ruido pero enfoca bien (muy rápido al girar)
+Giróscopo --> muy poco ruido pero sesgo, a la larga dice que estamos rotando sin estarlo (muy rápido al girar también)
+
 Savitzky-Golay --> media de frecuencias para hacer gráfica más smooth, ==> hace de paso-bajo pues elimina frecuencias altas
 Más ancho de banda --> tiempo de subida menor pero deja pasar mas ruido
+
+Señal con drift --> dejar pasar altas frecuencias (filtro paso-alto)
+Señal con ruido --> dejar pasar bajas frecuencias
+CONCLUSIÓN: buen tiempo de respuesta, no drift ==> filtra, filtra y suma
